@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bug Hunt 2021 - Coming Soon</title>
+<title>Bug Hunt 2021 - Coming Soon</title>
+<link rel="icon" href="https://i.imgur.com/NkU7pZq.png" type="image/icon type">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Shojumaru&display=swap" rel="stylesheet">
-<link rel="icon" href="https://i.imgur.com/NkU7pZq.png" type="image/icon type">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/root/Downloads/logo.png" type="image/icon type">
+<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <style>
 * {
   box-sizing: border-box;
@@ -19,7 +21,7 @@ body {
 }
 
 #myVideo {
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   min-width: 100%; 
@@ -27,13 +29,24 @@ body {
 }
 
 .content {
-  text-align: center;
-  position: fixed;
   top: 0;
+  position: fixed;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
-  padding: 5px;
+  padding: 2px;
+}
+.content2 {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines;
 }
 #app {
   height: 100vh;
@@ -293,27 +306,34 @@ body {
     transform: skew(-1deg);
   }
 }
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
 </style>
 </head>
 <body>
 <video autoplay muted loop id="myVideo">
-  <source src="/bg.mp4" type="video/mp4">
+  <source src="/root/Downloads/bg.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
 <div class="content">
-  <h1>Bug Bounty Community Bangladesh</h1>
-  <p>The Largest Infosec Community Of Bangladesh Consisting of Hackers and Security Researchers From Bangladesh</p>
+  <img src="/root/Downloads/logo.png" style="width:80px;height:80px;display: block;margin-left: auto;margin-right: auto;">
+  <h3 style="text-align:center;font-family: 'Reggae One', cursive;">Bug Bounty Community Bangladesh</h3>
+  <p style="text-align:center;font-family: 'Montserrat', sans-serif;font-size: 15px;">The Largest Infosec Community Of Bangladesh Consisting of Hackers and Security Researchers From Bangladesh</p>
 </div>
 <div id="app">
   <div id="wrapper">
     <h1 class="glitch" data-text="BUG HUNT 2021">BUG HUNT 2021</h1>
-
 </div>
 <span class="sub">COMING SOON</span>
 <br>
 <br>
 <img style="position:relative; width:30px; height:30px" src="https://i.imgur.com/HZvrdjZ.gif">
 </div>
-
 </body>
 </html>
