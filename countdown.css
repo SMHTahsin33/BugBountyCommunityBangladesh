@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 @font-face{
-    src: url(../fonts/Primal.otf);
+    src: url(Primal.otf);
     font-family: Primal;
 }
 *{
@@ -11,7 +11,7 @@
     padding: 0;
 }
 body{
-    background: url(../img/bg.jpg) no-repeat center center fixed;
+    background: url(bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
